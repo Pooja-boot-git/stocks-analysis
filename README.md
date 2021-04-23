@@ -1,7 +1,7 @@
 # Stock Analysis
 ## Project Overview: 
-We are here to analyze trends for stocks traded in years 2017 and 2018. 
-### Tickers Analyzed
+We are here to get an overview of Net Change in stock prices traded in years 2017 and 2018. 
+### Stocks/Tickers Analyzed
 - AY
 - CSIQ
 - DQ

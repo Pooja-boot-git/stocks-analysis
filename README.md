@@ -112,7 +112,7 @@ For j = LBound(tickers) To UBound(tickers) - 1
 [Performance after refactoring](https://github.com/Pooja-boot-git/stocks-analysis/blob/main/Module2_Challenge/Resources/VBA_Challenge_2018.png)
 
 DISCLAIMER : The project currently only contains data for years 2017 and 2018 but it can work for any year as long as the supporting data is present in a separate sheet named after the year. Please note that the code has hardcoded values for tickers but can be improved to make it run for any ticker. Use the below code snippet to achieve that.
-
+```
 'unique value calculation taken from
 ': https://stackoverflow.com/questions/5890257/populate-unique-values-into-a-vba-array-from-excel
 '
@@ -158,5 +158,9 @@ Results for years 2017 and 2018 are attached below.
 2. Advantages and disadvantages of the original and refactored VBA script 
 
    - Pros
+   
       -- We saw improvement in the time it took the code to run after we introduced arrays. Refer to Results section. The new code runs faster than the older one.
       
+   - Cons
+      
+      -- Not applicable. I do not see any disadvantage as there is a high probability of adding many more stocks in future as the client becomes more advanced              stock traders. 

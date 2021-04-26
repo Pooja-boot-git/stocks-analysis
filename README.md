@@ -47,7 +47,7 @@ We are here to get an overview of Net Change in stock prices traded in years 201
    3. Return -  (Last transaction (End of the year) - First transaction (start of the year))/First transaction (start of the year) * 100. It gives you the percetage increase or decrease in the price of a ticker in that year.
 
 ## Code performance 
-- The macro ends with a pop up message stating the time it took for the macro to run. It will be beneficial to know if we decide to considers much larger number of stocks in future to know how our current macro is performing. 
+- The macro ends with a pop up message stating the time it took for the macro to run. It will be beneficial to know if we decide to consider much larger number of stocks in future to know how our current macro is performing. 
 ```
     startTime = Timer
     <CODE BLOCK>
@@ -146,13 +146,17 @@ Results for years 2017 and 2018 are attached below.
    - Pros
    
       -- The main goal of code refactoring is to make it easy to enhance and maintain in the future.
+      
       -- Code size may be reduced improving code readability.
+      
       -- Tight couplings are removed making lesser chances of bugs in future versions.
+      
       -- Removal of duplicate code again making it easier to maintain.
    
    - Cons
       
       -- Sometimes, it may not be the best time to change the code especially when we have a tight deadline.
+      
       -- Any code changes have to be followed by thorough testing which may not happen properly if there's a time crunch and that may inturn induce bugs.
       
 2. Advantages and disadvantages of the original and refactored VBA script 
